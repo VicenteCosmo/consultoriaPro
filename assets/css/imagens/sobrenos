@@ -1,0 +1,25 @@
+/*const myImage=document.querySelector("img");*/
+const myImage=document.getElementById("src1");
+myImage.onclick=()=>{
+    const mySrc=myImage.getAttribute("src");
+    if(mySrc=="./logo.png"){
+        myImage.setAttribute("scr", "./PaoVida(2).png");
+    }
+    else{
+        myImage.setAttribute("src", "./lopgo2.png");
+    }
+};
+let myHeading=document.querySelector(h1)
+let myButton=document.querySelector("button");
+function setNmae(){
+    const myName=prompt("Insira o nome, por favor")
+    localStorage.setItem("name", myName);
+    myHeading.textContent="Entre em contacto", $(myName);
+
+}
+myButton.onclick=()=>{
+    setNmae();
+};
+
+<img  src="https://scontent.flad8-2.fna.fbcdn.net/v/t39.30808-6/348928874_645176510959524_6376321620942038151_n.jpg?stp=dst-jpg_p960x960&_nc_cat=107&ccb=1-7&_nc_sid=783fdb&_nc_ohc=9ATd4dB_FboAX9AzeB_&_nc_ht=scontent.flad8-2.fna&oh=00_AfDit-V4jSufRJUdCXw2jTbpUmMK5YcsqQXBlNhWC1I10g&oe=65D91B44"  class="paovida"/>
+<img src="https://scontent.flad8-2.fna.fbcdn.net/v/t39.30808-6/278842411_101871605846293_1998956204488168839_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9534ce&_nc_ohc=5WJjFSsaYYAAX_02oWx&_nc_ht=scontent.flad8-2.fna&oh=00_AfCpxiF85HH0fAphLMq--CKHoyuUPfmysLce5kSKMRILKw&oe=65D7CB58"  class="logo2"/>

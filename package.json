@@ -1,0 +1,25 @@
+{
+  "name": "login_system",
+  "version": "1.0.0",
+  "main": "login.js",
+  "type": "module",
+  "engines": {
+    "node": "20.12.0.x"
+  },
+  "scripts": {
+    "start": "node login.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon login.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "git": "^0.1.5",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0",
+    "type": "^2.7.2"
+  }
+}

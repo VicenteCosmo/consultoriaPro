@@ -1,0 +1,933 @@
+
+body{
+font-family: Platino Linotype;
+height: 100%;
+width: 100%;
+box-sizing: border-box;
+background-color: rgb(255, 255, 254);
+font-weight: 100;
+
+
+
+border-bottom: none;
+@media screen and (min-width: 4px) and (max-width: 768px){
+    opacity: .9;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+
+
+    .header{
+        display: block;
+        margin-top: 100px;
+    }
+    .menunu{
+       display: none;
+
+       background-color: #279EF4;
+       margin-top: 0px;
+        margin-right: 0px;
+        position: absolute;
+        margin-left: 290px;
+        transition: 1.5s;
+    
+
+    }
+    #menu li a{
+        margin-top: 10px;
+        background-color: #279EF4;
+        color: white;
+        
+    }
+    .header .button{
+        visibility: visible;
+       
+    }
+    #menu{
+        transition: 1.5s;
+    }
+    
+.bar-btn{
+    width: 120px;
+    display: block;
+    transition: .2s;
+}
+
+.bar{
+    width:35%;
+    height: 3px;
+    display: block;
+    margin-top: 1.5px;
+    background-color: #279EF4;
+    transition: .2s;
+}
+
+    .header .bar:hover{
+        color: #279EF4;
+        transform: scale(1);
+    }
+
+    .log{
+        align-items: center;
+    }
+
+    .log .h{
+        font-size: 20px;
+    }
+   
+   .trabalho-card{
+        margin-left: 25px;
+       height: 100px;
+       margin-right: 2px;
+
+       width: 200px;
+       box-shadow: 0 0 20px 5px black;
+       border-radius: 10px;
+       transition: .5s;
+   
+    }
+    #image{
+        width: 200px;
+        height: 100px;
+    }
+
+     .smallcards1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        display: block;
+    }
+
+   .card2{
+   
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 500px;
+        margin-top: 25px;
+        padding: 0px;
+    
+    }
+
+    .sobreNoscard2{
+        border-radius: .25px;
+        color: #279EF4;
+        width: 65%;
+        
+        padding: 10px;
+        margin-top: 5px;
+      
+        text-align: initial;
+    }
+    .cardh3{
+        font-weight: 100;
+    }
+    .hhh{
+        font-size: 45px;
+        margin-top: 200px;
+        justify-content: center;
+       align-items: center;
+       margin-left: auto;
+       margin-right: auto;
+       color: #279EF4;
+       width: 80%;
+       
+      
+      }
+      .trabalho-card img{
+        width: 300px;
+        height: 200px;
+      }
+
+      .trabalho-container{
+        width: 1250px;
+        overflow: hidden;
+        display: flex;
+        margin-left: 0px;
+       
+        }
+
+    .iframe{
+        height: 200px;
+        width: 1000px;
+        text-align: justify;
+    }
+
+    .trabalho-card{
+        margin-left: 25px;
+        height: 100px;
+        width: 400px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px black;
+        border-radius: 10px;
+        transition: .5s;  
+      }
+      .cardhServico{
+        font-weight: 100;
+      }
+
+      .AllfooterCard{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 4px;
+        margin-top: 0px;
+        align-items: center;
+      
+    }
+    
+    .footerCard{
+       
+        margin-left: 1px;
+        width: 100%;
+        height: 300px;
+        box-shadow:1px 1px 1px 1px  #279EF4 ;
+       /* background-color: #444e57;*/
+       background-color: black;
+      align-items: center;
+      margin-top: 10px;
+    
+    }
+    .contactoFooter{
+        display: flex;
+        margin-top: 0px;
+    }
+
+    .footerImg{
+        margin-bottom: 100px;
+        background-color: blue;
+        width: 100%;
+        height: 1200px;
+        padding-top: 50px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+       overflow: hidden;
+       image-rendering: pixelated;
+       background-image:url("./imagens/slide1.jpg");
+       background-attachment: fixed;
+    }
+    .footerlogo{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .label{
+        padding-top: 75px;
+        margin-bottom: 10px;
+
+    }
+    .span123{
+        font-size: 43px;
+    }
+
+    .body1{
+        width: 485px;
+       
+    }
+   
+}
+
+}
+
+.header .button{
+    visibility: collapse;
+}
+
+body .header{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin: 4px;
+   }
+   .a1{
+    padding: 50px;
+   }
+
+#menu li a{
+   
+    text-decoration: none;
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    
+   
+}
+.log img{
+    width: 10%;
+    height: 45px;
+    border-radius: 45%;
+    padding: 10px;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+
+h{
+    /*margin-left: 5px;*/
+    display: flex;
+   }
+.h{
+   
+    color: #279EF4;
+    width: 100%;
+    }
+
+
+.social a img{
+    width: 5% ;
+    height: 45px ;
+     
+    align-items: center;
+   margin-left: 50px;
+    justify-content: space-between;
+    float: left;
+
+}
+.contacto{
+    width: 5% ;
+    height: 45px ;
+     float: right;
+    align-items: center;
+   margin-left: 50px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 10%;
+}
+
+.what{
+    width: 5% ;
+    height: 45px ;
+
+}
+.p1{
+    text-align: center;
+    color: blue;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 0;
+}
+ul li a{
+    
+    color: #279EF4;
+    list-style: none;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 35px;
+    
+    }
+
+.section1 ul li a:hover{
+    border-bottom: 3px solid #279EF4;
+    transform: scale(1.2);
+    
+}
+.menunu{
+   display: inline-flex;
+    background-color: white;
+    margin-inline: 100px;
+    margin-right: 50px;
+    justify-content: center;
+    margin-left: 10px;
+  
+}
+
+.image{
+    height: 100%;
+    width: 100% ; 
+    padding: 0 auto;
+    float: left;
+    margin-top: 0 auto;
+    align-items: center;
+
+}
+.body1{
+    
+    
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: darkblue;
+   
+    align-items: center;
+    text-align: center;
+
+}
+
+.slides{
+    
+    background-color: blue;
+    width: 100%;
+    height: 600px;
+    
+    
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: scroll;
+   overflow: hidden;
+   image-rendering: pixelated;
+   background-image:url('./imagens/quemsomos.jpg');
+   background-attachment: fixed;
+   
+   animation:  5s ease-in-out infinite  alternate  10s;
+   animation: cosmo1 2.5s ease-in-out  alternate ;
+   }
+   .p2{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 90px;
+    
+    animation: cosmo1 5s ease-in-out infinite alternate 20s;
+    animation:  10s ease-in-out infinite  alternate  10s;
+   }
+   .p3{
+    
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 70px;
+    background-color: rgb(53, 66, 177);
+    border-radius: 55px;
+    animation: cosmo1 15s ease-in-out infinite alternate;
+   }
+
+   @keyframes cosmo1 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 10;
+    }
+    
+   }
+
+   @keyframes cosmo {
+    0%{
+        transform: scale(1);
+    }
+   50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+   }
+
+.cardimg2{
+    justify-content: center;
+    width: 50%;
+    margin-right: 25px;
+}
+
+.card2{
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 50px;
+    width: 40%;
+    height: 5%;
+    padding: 50px;
+    margin-right: 20px;
+    
+}
+
+.cardhServico{
+    color: #279EF4;
+    font-size: 45px;
+    text-align: center;
+ 
+}
+.cardh3{
+    color: white;
+    opacity: 1;
+}
+P{
+    color: white;
+    opacity: .8;
+}
+
+
+.smallcards1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin-inline: 30px;
+    animation: deslocarCard 5s alternate ease-in-out;
+    animation-timeline: scroll;
+  
+}
+
+@keyframes deslocarCard {
+    0%{
+        transform: translateX(-150vw);
+        opacity: 0;
+    }
+    95%{
+        transform: translateX(0vw);
+        opacity: 1;
+    }
+    
+}
+
+.card2{
+    box-shadow: 0 0 2.5px 2.5px  #279EF4 ;
+   /* background-color: #444e57;*/
+   background-color: #191919;
+    
+   
+}
+.label{
+    color: white;
+    padding-top: 70px;
+   
+    
+}
+
+.label a{
+    color: white;
+    border-bottom: .5px solid white;
+    border-right: .5px solid white;
+    border-left: .5px solid white;
+    border-top: .5px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+   
+}
+.label a:hover{
+    opacity: .8;
+    background-color: #279EF4;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+   justify-content: center;
+}
+
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+.footerImg{
+    margin-bottom: 100px;
+    background-color: blue;
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   overflow: hidden;
+   image-rendering: pixelated;
+   background-image:url("./imagens/slide1.jpg");
+   background-attachment: fixed;
+}
+.footerh{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.footerp{
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.footerlabel{
+    color: white;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+.footerlabel a{
+    color: white;
+    border-bottom: .5px solid white;
+    border-right: .5px solid white;
+    border-left: .5px solid white;
+    border-top: .5px solid white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+   
+
+}
+.footerlabel a:hover{
+    opacity: .8;
+    background-color: #279EF4;
+}
+
+.AllfooterCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    padding-top: 45px;
+    margin-top: 270px;
+  
+}
+
+.footerCard{
+   
+    margin-left: 1px;
+    width: 100%;
+    height: 500px;
+    box-shadow:1px 1px 1px 1px  #279EF4 ;
+   /* background-color: #444e57;*/
+   background-color: black;
+    
+    
+    
+}
+.footerlogo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerlogo p{
+    margin-top: 100px;
+}
+.footerlogo .h{
+    color: white;
+    font-size: 15px;
+
+}
+.footerlogo img{
+    width: 20%;
+    height: 15%;
+    margin-left: 25px;
+    border-radius: 50%;  
+}
+.redes{
+    margin-left: 5px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.redesP{
+    margin-top: 80px;
+}
+.redeimg1{
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.redes img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.footerCard  p{
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-top: 25px;
+
+}
+.fth3{
+    margin-left: 40px;
+    color: white;
+    font-size: 25px;
+}
+.fth4 a {
+    color: white;
+    text-decoration: none;
+    color: white;
+    
+}
+.fth4 a:hover {
+    color: #279EF4;
+  
+}
+
+.contactoFooter{
+    display: flex;
+    margin-top: 10px;
+}
+.contactoFooter img{
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+.contactoFooter p{
+    margin-top: 3px;
+}
+.contactoFooter p a{
+    color: white;
+    text-decoration: none;
+}
+.contactoFooter p a:hover{
+    color: #279EF4;
+    
+}
+
+.card1, .card11, .card2{
+    animation: parecer 10s ease-in-out ;
+    animation-timeline: view();
+
+}
+@keyframes aparecer {
+      0%{
+        opacity: 0;
+        translate: 0 0 -1vw;
+    }
+    50%{
+        opacity: 1;
+        translate: 0 0 0;
+    }
+    
+}
+
+.animated-text{
+    min-width: 280px;
+}
+.animated-text span{
+    position: relative;
+    
+   
+
+}
+.animated-text span::before{
+    content: "";
+    color: #279EF4;
+    
+    animation: animate 40s ease-in-out infinite; 
+     
+
+   
+
+}
+.animated-text span::after{
+    opacity: 1;
+    content: "";
+    border-left: 2px solid rgb(29, 13, 250);
+    position: absolute;
+    right: -1px;
+    animation: type 40s ease-in-out  infinite ;
+    background-color: #001f31;
+    height: 100%;
+    width: 0;
+   
+    
+   
+}
+
+@keyframes type {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%, 0%{
+        width: 100%;
+    }
+    
+}
+
+
+
+@keyframes animate {
+    0%, 20%{
+        content: "Contabilidade e Auditoria";
+    }
+    21%, 40%{
+        content: "Recursos Humanos ";
+    }
+    41%, 60%{
+        content: " Gestão Fiscal ";
+    }
+    61%, 80%{
+        content: " Estudos de Viabilidades  ";
+    }
+     81%,100%{
+        content: "Supervisão Contabilística";
+    }
+    
+}
+
+.sobreNos{
+       display: inline;
+        justify-content: center;
+        margin-left: 50px;}
+        
+.sobreNos .cardh3{
+    display: inline-flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 50px;
+    margin-top: 150px;
+
+}
+
+.sobreNoscard2{
+    border-radius: .25px;
+    color: #279EF4;
+    width: 50%;
+    
+    padding: 25px;
+    margin-top: 100px;
+    border-left: .5px solid #279EF4;
+    
+    text-align: initial;
+
+    display: inline-flex;
+    align-items: center;
+    margin-inline: 50px;
+    text-align: left;
+}
+
+.iframe{
+    height: 200px;
+    width: 100%;
+    text-align: justify;
+}
+
+.sobreNos .cardh3{
+    color: #279EF4;
+    font-size: 45px;
+    font-weight: 100;
+    vertical-align: 90px;
+    
+}
+.sobreNoscard2 a{
+    color: blue;
+}
+.cardh33{
+    color: black;
+    margin-top: 0px;
+}
+
+.hhh{
+    font-weight: 100;
+    margin-left: 1px;
+    width: 50%;
+    text-align: left;
+    left: 0;
+}
+.trabalhoRealizado{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+   
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+.trabalho-container{
+    width: 2000px;
+    overflow: hidden;
+    display: flex;
+    padding: 30px 40px;
+   
+    }
+.trabalho-container::-webkit-scrollbar{
+    display: none;
+
+}
+
+  .trabalho-card{
+    margin-left: 30px;
+     height: 200px;
+    margin-right: 4px;
+
+    width: 400px;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 10px;
+    transition: .5s;
+   
+    
+  }
+
+  .prev, .next{
+    border: none;
+    width: 5vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color:rgb(255, 255, 254) ;
+    font-size: 45px;
+    z-index: 9;
+
+  }
+  
+  .prev{
+    left: 0;
+  }
+  .next{
+    right: 0;
+  }
+  .prev, .next{
+    opacity: 0.5;
+  }
+  .prev:hover, .next:hover{
+    opacity: 4;
+    color: #279EF4;
+  }
+.hhh{
+    font-size: 45px;
+    margin-top: 200px;
+    justify-content: center;
+   align-items: center;
+   margin-left: 33%;
+   color: #279EF4;
+   
+  
+  }
+  .trabalho-card img{
+    width: 300px;
+    height: 200px;
+  }
+
+  .servicos{
+    display: inline;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.servicos .cardh3{
+    text-align: center;
+
+}

@@ -1,0 +1,16 @@
+{
+    "version":2,
+    "builds":[
+        {
+            "src":"./login.cjs",
+            "use": "@vercel/node"
+
+        }
+    ],
+    "routes":[
+        {
+        "src": "/(.*)",
+        "dest": "/"
+        }
+    ]
+}
